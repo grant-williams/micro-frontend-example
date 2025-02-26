@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Micro Frontends Example</title>
+		<style>
+			body {
+				font-family: Lato, sans-serif;
+				margin: 0;
+				background-color: #253543;
+				color: #fff;
+			}
+		</style>
+	</head>
+	<body>
+		<div id="root-layout"></div>
+		<script type="systemjs-importmap">
+			{
+				"imports": {
+					"home": "//localhost:8500/home.js",
+					"products": "//localhost:8501/products.js",
+					"posts": "//localhost:8502/posts.js",
+					"navbar": "//localhost:8503/navbar.js"
+				}
+			}
+		</script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/systemjs/6.3.1/system.min.js"></script>
+		<script src="https://unpkg.com/single-spa@latest/lib/system/single-spa.min.js"></script>
+		<script src="/root-config.js"></script>
+
+		<meta name="importmap-type" content="systemjs-importmap" />
+		<script src="https://unpkg.com/import-map-overrides/dist/import-map-overrides.js"></script>
+		<import-map-overrides-full></import-map-overrides-full>
+	</body>
+</html>

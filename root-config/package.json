@@ -1,0 +1,26 @@
+{
+	"name": "root-config",
+	"version": "1.0.0",
+	"scripts": {
+		"start": "webpack serve"
+	},
+	"dependencies": {
+		"import-map-overrides": "^5.1.1",
+		"react": "^17.0.2",
+		"react-dom": "^17.0.2",
+		"single-spa": "^5.9.3",
+		"single-spa-react": "^4.3.1"
+	},
+	"devDependencies": {
+		"@babel/core": "^7.26.9",
+		"@babel/preset-env": "^7.26.9",
+		"@babel/preset-react": "^7.26.3",
+		"babel-loader": "^9.2.1",
+		"css-loader": "^7.1.2",
+		"html-webpack-plugin": "^5.3.2",
+		"style-loader": "^4.0.0",
+		"webpack": "^5.58.2",
+		"webpack-cli": "^4.9.0",
+		"webpack-dev-server": "^4.3.1"
+	}
+}

@@ -1,0 +1,33 @@
+.page {
+	padding: 20px;
+	font-family: Arial, sans-serif;
+}
+
+.product-list {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 20px;
+	justify-content: center;
+}
+
+.product {
+	background-color: #375064;
+	padding: 20px;
+	border-radius: 5px;
+	width: 200px;
+	color: white;
+	cursor: pointer;
+}
+
+.product img {
+	width: 100%;
+	height: auto;
+	border-radius: 5px;
+}
+
+.product-details {
+	background-color: #375064;
+	padding: 20px;
+	border-radius: 5px;
+	color: white;
+}

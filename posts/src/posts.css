@@ -1,0 +1,33 @@
+.page {
+	padding: 20px;
+	font-family: Arial, sans-serif;
+}
+
+.article-list {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 20px;
+	justify-content: center;
+}
+
+.article {
+	background-color: #375064;
+	padding: 20px;
+	border-radius: 5px;
+	width: 300px;
+	color: white;
+	cursor: pointer;
+}
+
+.article img {
+	width: 100%;
+	height: auto;
+	border-radius: 5px;
+}
+
+.article-details {
+	background-color: #375064;
+	padding: 20px;
+	border-radius: 5px;
+	color: white;
+}
